@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Usuarios </title>
+</head>
+<link rel="stylesheet" type="text/css" href="CSS/estilousuario.css">
+<meta charset="utf-8">
+<body>
+<form action="metodosDB/up_user.php" method="POST">
+
+    <ul><h1>Usuarios</h1></ul> 
+     <div>
+            <label for="name">Nombre: </label>
+            <input type="text" name="name" />
+        </div>
+        <div>
+            <label for="mail">E-mail: </label>
+            <input type="email" name="mail" />
+        </div>
+        <div>
+            <label for="Contraseña">Contraseña: </label>
+            <input name="pass" type="text"/>
+        </div>
+    <div>
+            <label for="tel">Telefono: </label>
+            <input type="phone" name="tel" />
+        </div>
+        
+
+         <div class="button">
+            <button type="submit">enviar</button>
+        </div>
+</form>
+
+</body>
+</html>
